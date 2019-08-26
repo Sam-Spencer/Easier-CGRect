@@ -30,5 +30,5 @@ let frame = CGRect.init(x: 10, y: 10, width: 100, height: 300)
 let xForCalculation: Float = bounds.float(from: .x)
     
 // CGPoint extension lets you directly retrieve the float value as a calculated property
-let xFromCGPointForCoreData: Float = bounds.origin.x
+let xFromCGPointForCoreData: Float = bounds.origin.xFloat
 ```
