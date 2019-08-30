@@ -43,6 +43,15 @@ extension CGRect {
         }
     }
     
+    /// Create a rectangle using NSNumbers
+    init(x: NSNumber?, y: NSNumber?, width: NSNumber?, height: NSNumber?) {
+        let floatX = CGFloat(x?.floatValue ?? 0)
+        let floatY = CGFloat(y?.floatValue ?? 0)
+        let floatWidth = CGFloat(width?.floatValue ?? 0)
+        let floatHeight = CGFloat(height?.floatValue ?? 0)
+        self.init(x: floatX, y: floatY, width: floatWidth, height: floatHeight)
+    }
+    
 }
 
 extension CGSize {
