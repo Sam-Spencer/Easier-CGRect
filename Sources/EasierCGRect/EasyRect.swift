@@ -1,12 +1,13 @@
 //
-//  CGRect+Easier.swift
+//  EasyRect.swift
 //  Easier CGRect
 //
 //  Created by Sam Spencer on 8/26/19.
-//  Copyright © 2019 Sam Spencer. All rights reserved.
+//  Copyright © 2020 Sam Spencer. All rights reserved.
 //
 
 import Foundation
+import CoreGraphics
 
 extension CGRect {
     

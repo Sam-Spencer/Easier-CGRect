@@ -4,7 +4,9 @@ Making `CGRect` play nice with data storage and calculations is annoying. That's
 ## Installation
 
  1. Drag the file into your Xcode project.
- 2. That's it. (CocoaPods support soon)
+ 2. That's it.
+ 
+ Or, you can use Swift Package Manager if your heart so desires.
  
 ## Usage
 
